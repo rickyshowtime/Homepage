@@ -44,6 +44,8 @@
   	height: 100vh;
 }
 
+/* webp for chrome browser */
+
 .bg {
 	position: absolute;
 	left:15%;
@@ -51,11 +53,12 @@
 	width: 100vw;
   	height: 140vh;
   	background-size: cover;
-	bacground:red;
 	background-image: url("./medias/HomeBG.jpg");
-	background-image: url("./medias/HomeBG.webp");
+	background-image: -webkit-image-set(url("./medias/HomeBG.webp") 1x);
 	z-index:0;
 }
+
+
 
 .Shade {
 	position: absolute;
@@ -396,6 +399,8 @@ section {
 	width:100%;
 	background:
 		linear-gradient(to bottom, white 0%, transparent 15%, white 95%), linear-gradient(to left, white 0%, transparent 5%, white 95%), url(medias/BG_Light_top.png);
+	background:
+		linear-gradient(to bottom, white 0%, transparent 15%, white 95%), linear-gradient(to left, white 0%, transparent 5%, white 95%), -webkit-image-set(url(medias/BG_Light_top.webp)1x);
 	background-repeat: no-repeat;
 	background-size: 120%;
 		overflow: hidden;
@@ -412,6 +417,7 @@ section {
 	height:150vh;
 	width:100%;
 	background: linear-gradient(to bottom, white 0%, transparent 15%, white 95%), linear-gradient(to left, white 0%, transparent 5%, white 90%), url(medias/BG_Light_bottom.png);
+	background: linear-gradient(to bottom, white 0%, transparent 15%, white 95%), linear-gradient(to left, white 0%, transparent 5%, white 90%), -webkit-image-set(url(medias/BG_Light_bottom.webp)1x);
 	background-repeat: no-repeat;
 	background-size: 120%;
 	overflow: hidden;

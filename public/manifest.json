@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "RickyLabs",
+  "name": "RickyLabs | Web Design",
+  "description": " - Tailored website by RickyLabs Corporation - ",
   "icons": [
     {
       "src": "favicon.ico",
