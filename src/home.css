@@ -53,7 +53,7 @@
   	background-size: cover;
 	bacground:red;
 	background-image: url("./medias/HomeBG.jpg");
-	background-image: image("./medias/HomeBG.webp", "./medias/HomeBG.jpg");
+	background-image: url("./medias/HomeBG.webp");
 	z-index:0;
 }
 
