@@ -11,23 +11,14 @@ componentDidMount() {
 	
 	window.sr = ScrollReveal()
 	window.sr.reveal('.reveal')
-		
-	var myObject = $(this);
-
-	setTimeout(function()
-	{
-		$('#loader').addClass("off");
-		$('#load-wrapper').addClass("fade-out");
-	}, 2000); 
 	
 	var myObject = $(this);
-
+	
 	setTimeout(function()
 	{
-		$('#loader').addClass("disable");
-		$('#load-wrapper').addClass("disable");
-	}, 5000);
-	
+		$('#loading').fadeOut();
+	}, 4000);
+
 	var myObject = $(this);
 
 	setTimeout(function()
@@ -122,6 +113,16 @@ componentDidMount() {
   render() {
     return (
       <div>
+		<div id="loading">
+        <div id="loading-center">
+          <div id="loading-center-absolute">
+            <div className="object" id="object_four" />
+            <div className="object" id="object_three" />
+            <div className="object" id="object_two" />
+            <div className="object" id="object_one" />
+          </div>
+		</div>
+      	</div>
 		<div className="wrap-bg">
 		    <div className="bg"></div>
 			<div className="Shade"></div>
