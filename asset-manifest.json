@@ -1,10 +1,12 @@
 {
-  "main.css": "static/css/main.acfc013d.css",
-  "main.css.map": "static/css/main.acfc013d.css.map",
+  "main.css": "static/css/main.02be8059.css",
+  "main.css.map": "static/css/main.02be8059.css.map",
   "main.js": "static/js/main.f78c9f83.js",
   "main.js.map": "static/js/main.f78c9f83.js.map",
   "static\\media\\BG_Light_bottom.png": "static/media/BG_Light_bottom.ade7f834.png",
+  "static\\media\\BG_Light_bottom.webp": "static/media/BG_Light_bottom.b459a0d2.webp",
   "static\\media\\BG_Light_top.png": "static/media/BG_Light_top.ade7f834.png",
+  "static\\media\\BG_Light_top.webp": "static/media/BG_Light_top.b459a0d2.webp",
   "static\\media\\HomeBG.jpg": "static/media/HomeBG.1e6272f8.jpg",
   "static\\media\\HomeBG.webp": "static/media/HomeBG.18ec040f.webp",
   "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
