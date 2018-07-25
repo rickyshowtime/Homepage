@@ -98,7 +98,7 @@
   }	  
 
 }
-
+	
 @keyframes animate {
 
 50% {
@@ -154,8 +154,8 @@
 	width: 100vw;
   	height: 140vh;
   	background-size: cover;
-	background-image: url("./medias/HomeBG.jpg");
-	background-image: -webkit-image-set(url("./medias/HomeBG.webp") 1x);
+	background-image: url("./medias/PortfolioBG.jpg");
+	background-image: -webkit-image-set(url("./medias/PortfolioBG.webp") 1x);
 	z-index:0;
 }
 
@@ -306,7 +306,6 @@ section {
 .title {
 	position:fixed;
 	z-index:2;
-	position:absolute;
 	top:30%;
 	left:10%;
 	color:#fff;
@@ -954,8 +953,7 @@ section {
 		background:
 			linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%, transparent 5%, transparent 70%, white 98%), url(medias/BG_Light_top.png);
 		background:
-			linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%, transparent 5%, transparent 70%, white 98%), -webkit-image-set(url(medias/BG_Light_top.webp)1x);
-		
+			linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%,  transparent 5%, transparent 70%, white 98%), -webkit-image-set(url(medias/BG_Light_top.webp)1x);
 		background-size: 200%;
 		opacity: 0.30;
 		filter:blur(2px);
@@ -963,8 +961,8 @@ section {
 
 	.scroll:after {
 		margin-top:-150vh;
-		background: linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%,  transparent 5%, transparent 40%, white 70%), url(medias/BG_Light_bottom.png);
-		background: linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%,  transparent 5%, transparent 40%, white 70%), webkit-image-set(url(medias/BG_Light_bottom.webp)1x);
+		background: linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%, transparent 5%, transparent 40%, white 70%), url(medias/BG_Light_bottom.png);
+	    background: linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%, transparent 5%, transparent 40%, white 70%), -webkit-image-set(url(medias/BG_Light_bottom.webp)1x);
 		background-size: 200%;
 		background-position: 70% 0;
 		opacity: 0.25;
@@ -1220,7 +1218,7 @@ section {
 	.scroll:after {
 		margin-top:-150vh;
 		background: linear-gradient(to bottom, white 0%, transparent 5%, transparent 40%, white 65%), linear-gradient(to left, white 0%,  transparent 5%, transparent 40%, white 70%), url(medias/BG_Light_bottom.png);
-		background: linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%,  transparent 5%, transparent 40%, white 70%), webkit-image-set(url(medias/BG_Light_bottom.webp)1x);
+		background: linear-gradient(to bottom, white 0%, transparent 5%, transparent 30%, white 40%), linear-gradient(to left, white 0%,  transparent 5%, transparent 40%, white 70%), -webkit-image-set(url(medias/BG_Light_bottom.webp)1x);
 		background-size: 120%;
 		background-position: 70% 0;
 		opacity: 0.25;

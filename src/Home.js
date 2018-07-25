@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './home.css'
+import './Home.css'
 import $ from '../node_modules/jquery';
 import ScrollReveal from '../node_modules/scrollreveal';
 
@@ -17,7 +17,7 @@ componentDidMount() {
 	setTimeout(function()
 	{
 		$('#loading').fadeOut();
-	}, 4000);
+	}, 2800);
 
 	var myObject = $(this);
 
