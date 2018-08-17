@@ -141,7 +141,7 @@ componentDidMount() {
           <div className="modal">
             <div className="modal-content">
               <span className="close-button"><i className="fas fa-times-circle" /></span>
-              <div className="modal-alert">Page under construction, will be online soon !</div>
+              <div className="modal-alert"> Page under construction, will be online soon ! Please visit my <a className="modal-link" target="_blank" href="https://github.com/rickyshowtime">GitHub</a></div>
             </div>
           </div>
           <div className="icon-scroll-loader"><div className="icon-scroll" /></div>
