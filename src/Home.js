@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 import './Home.css'
 import $ from '../node_modules/jquery';
 import ScrollReveal from '../node_modules/scrollreveal';
@@ -137,13 +138,7 @@ componentDidMount() {
         <div id="home">
           <div className="title" id="bigtitle">Hi, I’m Eric</div>
           <div className="title" id="smalltitle">UI &amp; UX Designer</div>
-          <div id="button" onclick="handleOpen()"><button className="foo-button mdc-button btnformat">PORTFOLIO</button></div>
-          <div className="modal">
-            <div className="modal-content">
-              <span className="close-button"><i className="fas fa-times-circle" /></span>
-              <div className="modal-alert"> Page under construction, will be online soon ! Please visit my <a className="modal-link" target="_blank" href="https://github.com/rickyshowtime">GitHub</a></div>
-            </div>
-          </div>
+          <div id="button"><Link to={"/Portfolio"}><button className="foo-button mdc-button btnformat">PORTFOLIO</button></Link></div>
           <div className="icon-scroll-loader"><div className="icon-scroll" /></div>
           <a href="https://www.facebook.com/eric.chautems" target="_blank"><i className="fab fa-facebook-f" /></a>
           <a href="https://twitter.com/rickyshowtime" target="_blank"><i className="fab fa-twitter" /></a>
