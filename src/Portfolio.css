@@ -182,6 +182,17 @@ body {
   width:85vw;
 }
 
+.extlink{
+	display:flex;
+	padding:20% 0;
+	transition: color 0.5s ease-out;
+}
+
+.extlink:hover{
+	color:rgba(255, 255, 255, 0.25)!important;
+	transition: color 0.5s ease-in;
+}
+
 .active {
 display:flex;
 align-items: center;
@@ -195,8 +206,10 @@ background: #023C40;
 .active li {
   opacity:0;
   width:0;
+  z-index:10;
   text-align: center;
   vertical-align: middle;
+  color:rgba(255, 255, 255, 0.75);
 }
 .active li.current {
   opacity:1;
@@ -207,21 +220,25 @@ background: #023C40;
   height: 110%;
   font-size:12em;
   color:rgba(255, 255, 255, 0.75) !important;
-  transition: ease-out, 0.5s;
+  transition: color 0.5s ease-out;
 }
 
 .active li.current.hover {
 	color:rgba(255, 255, 255, 0.25)!important;
-	transition: ease-in, 0.5s;
+	transition:color 0.5s ease-in;
 }
 
-.accent {
+.active li.current .accent {
+	display:flex;
+    align-items: center;
+    justify-content: center;
+	vertical-align: middle;
 	color:rgba(124, 203, 173, 0.75);
-	transition: ease-out, 0.5s;
+	transition: 0.5s ease-out;
 }
-.accent.hover {
+.active li.current .accent.hover {
 	color:rgba(124, 203, 173, 0.25);
-	transition: ease-in, 0.5s;
+	transition:  0.5s ease-in;
 	
 }
 

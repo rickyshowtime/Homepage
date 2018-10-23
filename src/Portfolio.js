@@ -157,7 +157,7 @@ $(document).keydown(function (event) {
 		<div className="mobile-fix">
 		<div className="mobile"></div>
 		<div className="portfolio-title">Portfolio</div>
-		<div className="home"><Link to={"/home"}><i className="fas fa-arrow-left" /><span className="return"> back to homepage </span></Link></div>
+		<div className="home"><Link to={"/Homepage"}><i className="fas fa-arrow-left" /><span className="return"> back to homepage </span></Link></div>
 		
 		<div className="carouselbox">
         <div className="buttons">
@@ -165,8 +165,8 @@ $(document).keydown(function (event) {
 		  <div className="next">-</div>
         </div>
         <ol className="project">
-          <li id="Rio">Rio <span className="accent">Carnaval</span> 2018</li>
-          <li id="KineBach">KINE <span className="accent">&</span> BACH</li>
+          <li id="Rio"><a className="extlink" href="https://rickyshowtime.github.io/RioCarnival2018.io/" target="_blank">Rio <span className="accent">Carnaval</span> 2018</a></li>
+          <li id="KineBach"><a className="extlink" href="https://rickyshowtime.github.io/KINEBACH.io/" target="_blank">KINE <span className="accent">&</span> BACH</a></li>
           <li id="1">more</li>
 		  <li id="2">coming</li>
           <li id="3">soon !</li>
